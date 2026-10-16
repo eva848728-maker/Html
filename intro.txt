@@ -1,0 +1,4 @@
+git config --global user.name "Eva_12"
+git config --global user.email "Eva@example.com"
+
+HTML - HyperText Markup Language - Гіпертекстова мова розмітки
