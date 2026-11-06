@@ -5,6 +5,9 @@
 .h-150 {
     height: 150px;
 }
+.h_auto  {
+    height: auto !important;
+}
 .item {
     background-color: tomato;
     border: 2px solid maroon;
@@ -28,4 +31,19 @@
 }
 .a-center {
     align-items: center; /* вирівнювання поперек головної осі */
+}
+.a-stretch {
+    align-items: stretch; /* вирівнювання поперек головної осі */
+}
+.flex-1 {
+    background-color:lightskyblue ;
+    flex: 1;
+}
+.flex-2 {
+    background-color: plum;
+    flex: 2;
+}
+.flex-3 {
+    background-color: lightcoral;
+    flex: 3;
 }
