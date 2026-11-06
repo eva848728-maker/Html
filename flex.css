@@ -9,8 +9,8 @@
     height: auto !important;
 }
 .item {
-    background-color: tomato;
-    border: 2px solid maroon;
+    background-color: turquoise;
+    border: 2px solid mintcream;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -46,4 +46,40 @@
 .flex-3 {
     background-color: lightcoral;
     flex: 3;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 2px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+}
+.card-image{
+    background-color: cornflowerblue;
+    border-radius: 10px 10px 0px 0;
+    height: 40% ;
+   width: 100%
+}
+.card-headline, .card-subhead, .card-text,.card-footer, .card-button{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.card-headline{
+   font-size: xx-large;
+}
+.card-subhead{
+font-size: x-large;
+}
+.card-text{
+  padding-top:14px;
+  flex: 1;
+}
+.card-footer {
+display: flex;
+justify-content: end;
+}
+.card-button{
+font-size: x-large;
+padding-right: 10px;
 }
